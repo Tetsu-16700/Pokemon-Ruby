@@ -1,3 +1,7 @@
+
+import { Pokemons, ExperienceCurves, Moves, SpecialMoveTypes, TypeMultiplier } from "./pokedex.js";
+import { randomBetween } from "./utils.js";
+
 class Pokemon {
   constructor(species, name, level = 1) {
     // Por parametros

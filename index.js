@@ -1,3 +1,7 @@
+
+// se importa el modulo game.js con el siguiente codigo:
+import { Game} from"./game.js";
+
 let counter = 10;
 
 let intervalId = setInterval(() => {

@@ -1,3 +1,5 @@
+  
+ 
 const Pokemons = [
   {
     species: "Bulbasaur",
@@ -362,3 +364,4 @@ const ExperienceCurves = {
   mediumFast: (n) => n ** 3,
   fast: (n) => (4 * n ** 3) / 5,
 };
+export {Pokemons,  Moves, SpecialMoveTypes, TypeMultiplier, ExperienceCurves };

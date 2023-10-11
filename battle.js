@@ -1,3 +1,8 @@
+// se importa player.js and utilis.js
+import { Bot } from "./player.js";
+import { randomBetween } from "./utils.js";
+
+
 class Battle {
   constructor(player1, player2) {
     this.player1 = player1;
@@ -130,3 +135,5 @@ class Battle {
     ]);
   }
 }
+
+export { Battle};

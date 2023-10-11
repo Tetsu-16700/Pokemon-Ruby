@@ -1,3 +1,10 @@
+// se importa lo siguiente hacia game.js
+import { Player, Bot} from "./player.js";
+import { randomBetween} from "./utils.js";
+import { Pokemons } from "./pokedex.js";
+import { Battle} from "./battle.js";
+
+
 class Game {
   start() {
     let [name, pokemon, pokemonName] = Game.welcome();
@@ -149,3 +156,5 @@ When you feel ready you can challenge BROCK, the PEWTER's GYM LEADER`);
     console.log("This game was created with love by: ...");
   }
 }
+//se exporta el codigo a index.js// segunda manera//
+export { Game} ;

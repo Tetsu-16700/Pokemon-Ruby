@@ -1,3 +1,5 @@
+// se importa 
+
 class Player {
   constructor(name, species, pokeName, level) {
     this.name = name;
@@ -28,3 +30,5 @@ class Bot extends Player {
     this.pokemon.setCurrentMove(move);
   }
 }
+
+export { Player, Bot};
